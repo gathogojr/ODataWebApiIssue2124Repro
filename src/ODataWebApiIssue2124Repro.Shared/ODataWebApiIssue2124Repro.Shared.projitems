@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>8fa2b8a1-1a7f-4344-b969-33f5a1edfd1a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NS</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ConfigurationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\ReproDbContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Employee.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Project.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Task.cs" />
+  </ItemGroup>
+</Project>
