@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace NS.Controllers
 {
-    public class ProjectsController
+    public class ProjectsController : ODataController
     {
         private readonly ReproDbContext _db;
 
